@@ -1,0 +1,18 @@
+node_modules/
+
+# Secrets — keep the example, ignore real env files
+.env
+.env.*
+!.env.example
+
+# Logs / OS cruft
+*.log
+.DS_Store
+
+# Local bun / npm caches for this checkout
+.bun-install/
+.bun-tmp/
+.npm-cache/
+
+# bun is the package manager; don't track the npm lockfile
+package-lock.json
